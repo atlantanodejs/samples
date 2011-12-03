@@ -1,4 +1,4 @@
-## This is a place for projects for the Atlanta Node.js Group.
+## Sample code
 
-First up, sample code.
+
 
