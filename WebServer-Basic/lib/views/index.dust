@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+<div style="color:red;">{title}-{mynewobj}</div>
+{?user}
+<ul class="nav pull-right">
+	<li><a href="#">Welcome, {user.name}!</a></li>
+	<li><a href="/logout">Logout</a></li>
+</p>
+{:else}
+<ul class="nav pull-right">
+	<li>Login in with
+		<a href="/auth/facebook">
+			<button class="facebook-button">Facebook</button>
+		</a>
+	</li>
+</ul>
+{/user}
+</body>
+</html>
